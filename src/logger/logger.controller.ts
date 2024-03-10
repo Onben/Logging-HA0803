@@ -25,7 +25,7 @@ getErrorLog() {
 @Get('debug')
 getDebugLog(){
     this.logger.debug(
-    'This is a debug messagee',
+    'This is a debug message',
     );
     return 'Logged an DEBUG message.';
 }
